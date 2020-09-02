@@ -1,10 +1,9 @@
-/*
-** @param {array} items - Array to be searched
-** @param {number} value - Value to search for
-*/
-
 const items = [1, 2, 3, 4, 5, 6];
 
+/*
+** @params {array} items - Array to be searched
+** @params {number} value - Value to search for
+*/
 function binarySearch(items, value){
   let firstIndex = 0;
   let lastIndex = items.length - 1;
